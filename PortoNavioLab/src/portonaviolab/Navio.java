@@ -12,7 +12,7 @@ package portonaviolab;
  */
 
 public class Navio {
-     public String matricula;
+    public String matricula;
     public String nome;
     public float comprimento;
     
@@ -21,7 +21,7 @@ public class Navio {
         nome = null;
         comprimento = 0;
     }
-
+    //retorna 
     public String getNome() {
         return nome;
     }
