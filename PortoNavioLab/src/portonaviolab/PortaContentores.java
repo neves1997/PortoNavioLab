@@ -11,7 +11,7 @@ package portonaviolab;
  * @version 1.0
  */
 
-public class PortaContentores {
+public class PortaContentores extends Navio{
    
       public int num_max_contentores;
 
