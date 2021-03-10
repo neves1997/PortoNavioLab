@@ -10,11 +10,13 @@ package portonaviolab;
  * @author andreneves
  * @version 1.0
  */
-public class Petroleiro {
+
+public class Petroleiro extends Navio{
     public float capacidade_carga;
 
       public Petroleiro(String matricula) {
-            super(matricula);//passa parâmetro para o construtor da superclasse 
+            super(matricula);
+        //passa parâmetro para o construtor da superclasse 
       }
 
 

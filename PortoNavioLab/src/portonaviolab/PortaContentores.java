@@ -16,7 +16,8 @@ public class PortaContentores {
       public int num_max_contentores;
 
       public PortaContentores (String matricula) {
-            super(matricula);//passa parâmetro para o construtor da superclasse 
+            super(matricula);
+    //passa parâmetro para o construtor da superclasse 
       }
 
     public int getNum_max_contentores() {
