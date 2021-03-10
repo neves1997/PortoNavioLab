@@ -8,17 +8,10 @@ package portonaviolab;
 /**
  *
  * @author andreneves
- * @versio 1.0
+ * @version 1.0
  */
 
 
-public class PortoNavioLab {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO O CÓDIGO AQUI
-    }
+public class Porto {
     
 }
