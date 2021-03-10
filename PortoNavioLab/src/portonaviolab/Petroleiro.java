@@ -11,7 +11,7 @@ package portonaviolab;
  * @version 1.0
  */
 
-public class Petroleiro extends Navio{
+public class Petroleiro extends Navio {
     public float capacidade_carga;
 
       public Petroleiro(String matricula) {
