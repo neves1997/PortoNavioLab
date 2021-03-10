@@ -11,5 +11,22 @@ package portonaviolab;
  * @version 1.0
  */
 public class Petroleiro {
+    public float capacidade_carga;
+
+      public Petroleiro(String matricula) {
+            super(matricula);//passa parâmetro para o construtor da superclasse 
+      }
+
+
+    public float getCapacidade_carga() {
+        return capacidade_carga;
+    }
+
+    public void setCapacidade_carga(float capacidade_carga) {
+        this.capacidade_carga = capacidade_carga;
+    }
     
+    public String toString() {
+        return "Petroleiro{" + "Matricula= " + matricula + ", Nome= " + nome + ", Comprimento= " + comprimento + ", Capacidade Carga= "+ capacidade_carga + " toneladas" +'}';
+    }
 }
