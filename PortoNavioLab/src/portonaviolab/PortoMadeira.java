@@ -12,12 +12,13 @@ package portonaviolab;
  * @version 1.0
  */
 
-public class PortoMadeira {
+public class PortoMadeira extends Navio{
     
       public int num_max_toneladas;
 
-      public PortaMadeira (String matricula) {
-            super(matricula);//passa parâmetro para o construtor da superclasse 
+      public PortoMadeira (String matricula) {
+            super(matricula);
+      //passa parâmetro para o construtor da superclasse 
       }
 
     public int getNum_max_toneladas() {
