@@ -35,7 +35,7 @@ public class Porto {
     
     public void listar(){
         for(Navio n: navios)
-       
+       System.out.println(n);  
      
 }
 }
